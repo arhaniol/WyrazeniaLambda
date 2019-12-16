@@ -20,8 +20,7 @@ public class Main {
     private static void task3() {
         BiFunction<Integer, String, Human> humanFunction = Human::new;
         Human human = humanFunction.apply(34, "Tomasz");
-        System.out.print(human.getName());
-        System.out.println(" ma " + human.getAge() + " lat");
+        System.out.print(human.getName()+" ma " + human.getAge() + " lat");
     }
 
     private static void task2() {
